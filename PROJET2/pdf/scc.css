@@ -1,0 +1,27 @@
+﻿nav
+{
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+section
+{
+    display: inline-block;    
+    border: 1px solid blue;
+    vertical-align: top;
+}
+strong
+{
+   background-color: red; /* Fond rouge */
+   color: yellow; /* Texte de couleur jaune */
+}
+strong
+{
+   background-color: red;
+   color: yellow;
+   
+   position: relative;
+   left: 55px;
+   top: 10px;
+}

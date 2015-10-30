@@ -1,0 +1,129 @@
+@font-face 
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+src: local('Open Sans Bold'), local('OpenSans-Light'), url(../polices/OpenSans-Bold.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-padding-before: 70px;
+}
+
+/* -------------- Global ----------------*/
+
+/* -------------- Menu ----------------*/
+.nav-pills
+{
+    font-size: 9.5px;
+    font-family: "OSWALD",sans-serif,cursive;
+}
+.nav-pills a
+{
+    text-transform: uppercase;
+}
+.nav-pills .li_men
+    {
+        display: none;
+    }
+.nav-pills i
+    {
+        font-size: 25px;
+    }
+
+/* -------------- Formulaire ----------------*/
+#panel_pad
+{
+    margin-top: 10px;
+}
+.panel-primary {
+    border-color: #404142;
+}
+.panel-primary > .panel-heading {
+    color: #FFF;
+    background-color: #404142;
+    border-color: #404142;
+    text-transform: uppercase;
+}
+.navbar-fixed-bottom, .navbar-fixed-top
+{
+    position: sticky;
+    about:--enable-experimental-webkit-features;
+    position: -webkit-sticky;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #FFF;
+    background-color: #0F0F0F;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #FFF;
+    background-color: #404142;
+}
+.nav-pills a:focus, a:hover
+{
+    color:#343434;
+}
+.nav-pills a
+{
+    color: #404142;
+}
+h1,h2,h3
+{
+    font-family: "OSWALD",sans-serif,cursive;
+}
+.bord
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-enga {
+    margin-bottom: 20px;
+}
+.padnul {
+    margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 10px;
+}
+/*-------------------------------------------------- Media Query ------------------------------------------------------*/
+
+/*-------------------------------- COL SM ------------------------------*/
+@media (min-width: 720px) 
+{
+.nav-pills
+    {
+        font-size: 16px;
+    }
+.nav-pills .li_men
+    {
+        display: inline-block;
+    }
+.nav-pills i
+    {
+        font-size: 18px;
+    }
+.nav-pills li
+    {
+        margin-left: auto;
+    }
+}
+/*-------------------------------- COL MD ------------------------------*/
+@media (min-width: 992px) 
+{
+ 
+}
+
+/*-------------------------------- COL LG ------------------------------*/
+
+@media (min-width: 1200px) 
+{
+    
+}
+.policp {
+    font-family: 'Arial',sans-serif,cursive;
+}
+
+.modal-title {
+    text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+@font-face 
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+src: local('Open Sans Bold'), local('OpenSans-Light'), url(../polices/OpenSans-Bold.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 800px;
+}

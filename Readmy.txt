@@ -1,0 +1,1 @@
+créer une base de données memoire2 et importer le script SQL memoire2.sql

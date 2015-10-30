@@ -1,0 +1,454 @@
+@font-face 
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+src: local('Open Sans Bold'), local('OpenSans-Light'), url(../polices/OpenSans-Bold.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 800px;
+}
+/* ------------------------------------------------- Intro ------------------------------------------------------*/
+
+.intro {
+    height: 100%;
+    text-align: center;
+}
+
+/* ------------------------------------------------- Navigation ------------------------------------------------------*/
+ul
+{
+    margin: 0;
+}
+
+}
+/*.top-nav{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    color: #dee8eb;
+	position: relative;
+	top:35px;
+
+    
+}*/
+/*.navbar-default .navbar-nav>li>a
+{
+	color:#dee8eb;
+}
+.navbar-default
+{
+	background-color:#333233;
+	border:0;
+}
+.navbar
+{
+	border-radius:0;
+	margin-bottom:0;
+}
+.navbar-nav
+{
+	margin:0;
+	
+}
+.navbar-brand
+{
+	height:80px;
+	padding: 15px 0;
+}
+.top-nav .glyphicon
+{
+	top:5px;
+	font-size:20px;
+
+}
+.nav>li
+{
+	text-align:center;
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+	background-color:#94c7e9;
+}*/
+.logo {
+    padding: 0 auto;
+	width:80%;
+}
+.navbar-default
+{
+		/*background-color:#00FF80;*/
+		border:0;
+		overflow:hidden;
+		margin-bottom:0;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover
+{
+	background-color:#FED100;
+}
+.haut {
+    margin: 13px 0;
+}
+
+/* ------------------------------------------------- Carousel ------------------------------------------------------*/
+
+.intro_msg {
+    text-align: center;
+    position: absolute;
+    top:450px;
+    z-index: 1;
+    color: #fff;
+    background-color: rgba(16,16,16,.6);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.intro_msg .welcome_msg
+{
+    opacity: 1 ;
+    font-family: "OSWALD",cursive,sans-serif,Arial;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.carousel-indicators li
+{
+	background-color:#eef0f2;
+}
+.carousel-indicators .active
+{
+	background-color:#00a0d6;
+	border:0;
+}
+.carousel {
+    height: 40%;
+}
+/* ------------------------------------------------- Historique ------------------------------------------------------*/
+
+.histo {
+    height: 100%;
+    padding-top: 5px;
+    background: url("../img/pattern-video.png") repeat scroll 0 0%, url("../img/video_bg.png") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    background-color: #313131;
+    color:#fff;
+    
+}
+
+.histo p{
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.archive_img {
+    border: 3px solid white;
+}
+.histo_titre {
+    font-family: "OSWALD",sans-serif,Arial;
+    font-size: 40px;
+    font-weight: 500;
+    color: #FED100;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+/* ------------------------------------------------- Connexion ------------------------------------------------------*/
+
+
+.sec_deux_connexion
+{
+	background-color:#EEEEEE;
+    padding-top: 100px;
+    height:100%;
+    
+}
+.connexion
+{
+	border: 2px solid rgba(16,16,16,.6);
+	height: 484.86px;
+	
+}
+
+.text_connexion
+{
+    font-family: "OSWALD", Arial, sans-serif;
+    border-right: 2px solid rgba(16,16,16,.6);
+    border-bottom: 2px solid rgba(16,16,16,.6);
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.connexion .glyph-user {
+    color: #222222;
+    font-size: 120px;
+    padding-top: 20px;
+}
+
+.connexion .text-primary
+{
+    color: #fff;
+}
+
+.connexion input
+{
+	text-align:center;
+}
+
+.sec_deux_connexion .form-group
+{
+	text-align:-webkit-center;
+	text-align: -moz-center;
+	margin-top:70px;
+}
+
+.sec_deux_connexion .form-control
+{
+	font-size: 20px;
+	border: 1px solid rgb(222, 232, 235);
+	border-radius: 25px;
+	background-color: rgb(255, 255, 255);
+}
+.sec_deux_connexion .input-group
+{
+	width:70%;
+	margin-bottom:15px;
+}
+.sec_deux .btn-group-lg>.btn, .btn-lg
+{
+	margin-top:20px;
+}
+.connexion .btn-default
+{
+	background-color:#536092;
+	color:#FFFFFF;
+	font-size:30px;
+}
+
+.connexion .btn-group-lg>.btn, .btn-lg
+
+{
+    background-color: #333333;
+    border: none;
+}
+.btn
+{
+    border: none;
+}
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open > .dropdown-toggle.btn-success
+{
+    background-color: #FED100;
+    border: none;
+    color: #333333;
+}
+
+/* ------------------------------------------------- Contact ------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------         ------------------------------------------------------*/
+
+
+.sec_trois
+{
+	background-color: #ffcc33;
+    padding-top: 100px;
+    height:100%;
+}
+.sec_trois .input-group-addon
+{
+    background-color: #222;
+    color: #FFF;
+    border:none;
+}
+.contact_form
+{
+	border: 2px solid rgba(16,16,16,.6);
+	margin-bottom:65px;
+}
+.sec_trois .input-group
+{
+	width:100%;
+	margin-bottom:15px;
+}
+.sec_trois .form-group
+{
+	text-align:-webkit-center;
+	text-align: -moz-center;
+	margin-top:40px;
+}
+.btn_connexion
+{
+	margin-top:20px;
+	width:20%;
+}
+.sec_trois .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary
+{
+    background-color: #FFF;
+    color: #333333;
+    border:none;
+}
+.sec_trois .message
+{
+	width:10px !important;
+	height: 250px !important;
+	min-width: 100%;
+	max-width:100%;
+}
+
+.sec_trois button .glyphicon
+{
+	margin-left:5px;
+	font-size: 20px;
+}
+#contact_ancre h2
+{
+	color:#000;
+    font-family: "OSWALD", Arial, sans-serif;
+    border-left: 2px solid rgba(16,16,16,.6);
+    border-bottom: 2px solid rgba(16,16,16,.6);
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+/* ------------------------------------------------- Footer ------------------------------------------------------*/
+
+.sec-quatre
+{
+    padding-top: 80px;
+    height: 100%;
+    background-color:#313131;
+    color: white;
+}
+.sec-quatre h3
+{
+    font-family: "OSWALD",Arial,sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.sec-quatre p
+{
+    padding-top:30px;
+    text-align: justify;
+}
+.reseau_s
+{
+	padding:10px 0;
+}
+.reseau_s img:hover
+{
+	opacity:.4;
+}
+
+footer .nous img
+{
+	width: 140px;
+	height: 140px;
+	background-color:#eee;
+	border: 4px solid white;
+}
+footer .nous img:hover
+{
+	opacity: .7;
+}
+.sec_cinq
+{
+	background-color:#313131;
+	margin:0;
+    height: auto;
+
+}
+footer .col-lg-4
+{
+	border-right: 3px solid rgb(219, 214, 219);
+}
+.sec_cinq .btn-light {
+    background-color: #fff;
+    padding: 10px 40px;;
+    margin-bottom: 20px;
+}
+
+.sec_cinq .btn-light:hover {
+    background-color: #6f6f6f;
+    color:white;
+}
+.hr_bottom {
+    max-width: 800px;
+}
+
+.contact_element {
+    font-size: 12pt;
+    font-family: "Open Sans",Arial,sans-serif;
+    color: black;
+    margin-top:40px;
+    padding-bottom: 30px;
+}
+
+/*-------------------------------------------------- Media Query ------------------------------------------------------*/
+
+/*-------------------------------- COL SM ------------------------------*/
+@media (min-width: 768px) 
+{
+.histo_titre {
+    font-family: "OSWALD",sans-serif,Arial;
+    font-size: 60px;
+    font-weight: 500;
+    color: #FED100;
+}
+    
+.archive_img {
+    border: 3px solid white;
+    text-align: center;
+}
+}
+.archive_div {
+    text-align: center;
+}
+
+/*-------------------------------- COL MD ------------------------------*/
+
+@media (min-width: 992px) 
+{
+   .histo
+    {
+        padding-top: 50px;
+    }
+}
+
+/*-------------------------------- COL LG ------------------------------*/
+
+@media (min-width: 1200px) 
+{
+.histo
+    {
+        line-height: 1.7;
+        font-size: 1.2em;
+    }
+.histo_titre 
+    {
+        text-align: left;
+    }
+.archive_img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+.btn_connexion 
+    {
+        margin-top: 20px;
+        margin-right: 15px;
+        width: 20%;
+    }
+.sec_trois button
+    {
+        font-size:24px;
+    }
+}
+
